@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Please summarize the research paper titled \"{paper_input}\" with the following specifications:\nExplanantion style: {style_input}\nExplanantion length: {length_input}                         \nIf necessary, use relatable analogies to simplify complex ideas as per explanantion style.\nIf certain info is not available in the paper, respond with: \"Insufficient data available\" instead of hallucinating.\nEnsure the summary is clear, accurate and aligned with the provided style and length.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}

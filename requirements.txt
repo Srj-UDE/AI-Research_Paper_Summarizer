@@ -1,0 +1,5 @@
+langchain 
+streamlit==1.53.1 
+langchain-openai==0.3.18
+dotenv==0.9.9
+pip==25.2
