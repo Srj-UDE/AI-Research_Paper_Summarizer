@@ -87,7 +87,7 @@ The application uses this key to access the OpenAI chat model.
 Start the Streamlit app with:
 
 ```bash
-streamlit run app.py
+streamlit run Research_paper_summarizer.py
 ```
 
 Then open the local URL displayed in the terminal (usually):
