@@ -1,6 +1,6 @@
 # 📚 AI-Research Paper Summarizer 
 
-A Python-based AI research paper summarizer built using LangChain, OpenAI's `gpt-4o-mini` model, and a Streamlit web interface. The tool summarizes selected research papers according to user-defined explanation style and **desired summary length. This project demonstrates how LLM-powered tools can make complex academic papers easier to understand.
+A Python-based AI research paper summarizer built using LangChain, OpenAI's `gpt-4o-mini` model, and a Streamlit web interface. The tool summarizes selected research papers according to user-defined explanation style and desired summary length. This project demonstrates how LLM-powered tools can make complex academic papers easier to understand.
 
 ---
 
