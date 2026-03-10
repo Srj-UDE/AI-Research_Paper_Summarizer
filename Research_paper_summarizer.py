@@ -10,7 +10,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 chat_model = ChatOpenAI(model="gpt-4o-mini",api_key=OPENAI_API_KEY)
 
 #Streamlit 
-st.title("Srijan's Research Paper Summarizer", divider="rainbow")
+st.header("Srijan's Research Paper Summarizer", divider="rainbow")
 st.subheader(f"Powered by: GPT-4o-mini")
 paper= st.selectbox("Select a research paper to summarize",["Attention is all you Need","BERT: Pre-training of Deep bidirectional Transformers","GPT-3: Language Models are Few-Shot Learners","Diffusion Models Beat GANs on Image Synthesis","The AAA+ chaperone VCP disaggregates Tau fibrils and generates aggregate seeds"])
 style= st.selectbox("Select explanation style",["Beginner-friendly","Non-technical","Technical","Application-based"])
