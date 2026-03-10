@@ -23,7 +23,7 @@ template= load_prompt('template_summarizer.json')
 #Fill the placeholders
 
 
-if st.button("Summarize"):
+if st.button("Summarize",type="primary"):
     chain = template | chat_model
     result = chain.invoke({
     "paper_input":paper,
